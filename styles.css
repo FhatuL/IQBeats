@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    font-size: 5.625rem;
+    width: 60%;
+    margin: 10px auto 0 auto;
+    font-family: 'Great Vibes', cursive;
+    color: #66BFBF;
+    line-height: 6rem;
+
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #66BFBF;
+}
+.prog {
+    font-weight: normal;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: #11999E;
+    font-weight: bold;
+}
+
+.footer-link {
+    color: #11999E;
+}
+
+.top {
+    
+    
+    background-color: #e3fdfd;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle {
+    
+    /* background-color: #a6e3e9; */
+   
+}
+
+.bottom {
+    
+    /* background-color: #71c9ce; */
+    background-color: #323232;
+    margin-bottom: 0px;
+    
+}
+
+.cloud-top {
+    position: absolute;
+    right: 470px;
+    top: 50px;
+}
+
+.cloud-bottom {
+    position: absolute;
+    left: 400px;
+    bottom: 250px;
+}
+
+.mountain {
+    margin: 0 auto 0;
+    display: block;
+    max-width: 598px;
+    width: 100%;
+    height: auto;
+}
+
+.birds {
+    position: absolute;
+    height: auto;
+    bottom: 150px;
+
+    width: 20%;
+}
+
+.pic {
+    border-radius: 100%;
+    margin: 0px auto 0px;
+    width: 30%;
+    display: block;
+    
+}
+
+.skill-row {
+    width: 70%;
+    margin: 0px auto 0px;
+    line-height: 2;
+    text-align: left;
+}
+
+.daw-pic {
+    max-width: 100%;
+    max-height: 100%;
+    width:  20%;
+    float: left;
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+
+.profile {
+    width: 75%;
+    margin: 10px auto 0px;
+    line-height: 2;
+}
+
+.trademark {
+    color: cornsilk;
+}
+
+.text-1 {
+    float: right;
+}
+
+.text2 {
+    clear: both;
+}
