@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+h1 {
+    font-size: 5.625rem;
+    width: 60%;
+    margin: 10px auto 0 auto;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(158, 185, 221);
+    line-height: 6rem;
+
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #1f1f1f;
+}
+.prog {
+    font-weight: normal;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: #00181d;
+    font-weight: bold;
+    margin: 0 auto 0;
+}
+
+.footer-link {
+    color: #11999E;
+}
+
+.top {
+    
+    
+    background-color: #4d4c7d;
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 0;
+    
+}
+
+.middle {
+    margin-top: 0;
+    background-color: #3e3e66; 
+   
+}
+
+.bottom {
+    
+    /* background-color: #71c9ce; */
+    background-color: #323232;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    
+}
+
+.cloud-top {
+    position: absolute;
+    right: 470px;
+    top: 50px;
+}
+
+.cloud-bottom {
+    position: absolute;
+    left: 400px;
+    bottom: 250px;
+}
+
+.mountain {
+    margin: 0 auto 0;
+    display: block;
+    max-width: 598px;
+    width: 100%;
+    height: auto;
+}
+
+.birds {
+    position: absolute;
+    height: auto;
+    bottom: 150px;
+
+    width: 20%;
+}
+
+.pic {
+    border-radius: 100%;
+    margin: 0px auto 0px;
+    width: 30%;
+    display: block;
+
+    
+}
+
+.skill-row {
+    width: 70%;
+    margin: 0px auto 0px;
+    line-height: 2;
+    text-align: left;
+}
+
+.daw-pic {
+    max-width: 100%;
+    max-height: 100%;
+    width:  20%;
+    float: left;
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+
+.profile {
+    width: 75%;
+    margin: 0px auto 0px;
+    line-height: 2;
+    padding-top: 10px;
+}
+
+.trademark {
+    color: cornsilk;
+}
+
+.text-1 {
+    float: right;
+}
+
+.text2 {
+    clear: both;
+}
+hr {
+    clear: both;
+    margin: 0;
+    height: 3px;
+    background-color: #1d1935;
+    border: none;
+}
+
+p {
+    color: lightsteelblue;
+}
+
+.something {
+    color: rgb(235, 181, 181);
+}
+
+.btn {
+    display: block;
+    width: 110px;
+    height: 15px;
+    background: rgb(20, 20, 20);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto 0;
+    text-decoration: none;
+    
+}
+}
