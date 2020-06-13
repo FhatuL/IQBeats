@@ -1,167 +1,220 @@
-body {
-    margin: 0;
+/* .top {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #323232;
-    margin-bottom: 0px;
-    
+    padding: 10px 0;
+} */
 
-}
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap');
 
-h1 {
-    font-size: 5.625rem;
-    width: 60%;
-    margin: 10px auto 0 auto;
-    font-family: 'Great Vibes', cursive;
-    color: rgb(158, 185, 221);
-    line-height: 6rem;
-
-}
-
-h2 {
-    font-size: 2.5rem;
-    font-family: 'Roboto', sans-serif;
-    color: #1f1f1f;
-}
-.prog {
-    font-weight: normal;
-}
-
-h3{
-    font-size: 1.5rem;
-    color: #00181d;
-    font-weight: bold;
-    margin: 0 auto 0;
-}
-
-.footer-link {
-    color: #11999E;
-}
-
-.top {
-    
-    
-    background-color: #4d4c7d;
-    position: relative;
-    padding-top: 100px;
-    margin-bottom: 0;
-    
-}
-
-.middle {
-    margin-top: 0;
-    background-color: #3e3e66; 
-   
-}
-
-.bottom {
-    
-    /* background-color: #71c9ce; */
-    background-color: #323232;
-    margin-bottom: 0px;
-    padding-top: 10px;
-    
-}
-
-.cloud-top {
-    position: absolute;
-    right: 470px;
-    top: 50px;
-}
-
-.cloud-bottom {
-    position: absolute;
-    left: 400px;
-    bottom: 250px;
-}
-
-.mountain {
-    margin: 0 auto 0;
-    display: block;
-    max-width: 598px;
-    width: 100%;
-    height: auto;
-}
-
-.birds {
-    position: absolute;
-    height: auto;
-    bottom: 150px;
-
-    width: 20%;
-}
-
-.pic {
-    border-radius: 100%;
-    margin: 0px auto 0px;
-    width: 30%;
-    display: block;
-
-    
-}
-
-.skill-row {
-    width: 70%;
-    margin: 0px auto 0px;
-    line-height: 2;
-    text-align: left;
-}
-
-.daw-pic {
-    max-width: 100%;
-    max-height: 100%;
-    width:  20%;
-    float: left;
-    margin-bottom: 0px;
-    margin-right: 20px;
-}
-
-.profile {
-    width: 75%;
-    margin: 0px auto 0px;
-    line-height: 2;
-    padding-top: 10px;
-}
-
-.trademark {
-    color: cornsilk;
-}
-
-.text-1 {
-    float: right;
-}
-
-.text2 {
-    clear: both;
-}
-hr {
-    clear: both;
+* {
     margin: 0;
-    height: 3px;
-    background-color: #1d1935;
-    border: none;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #ececec;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+}
+
+li, a , button {
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: Muli, sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+a {
+    padding-bottom: 5px;
+}
+
+.logo-container{
+    width: 10%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #30475e;
+    padding: 4px 10%;
+}
+
+
+
+.logo {
+   width: 70%;
+   text-align: center;
+}          
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navlinks a {
+    transition: all 0.3s ease 0s;
+    border-bottom: 3px solid transparent;
+
+}
+
+.navlinks a:hover {
+    color: #71c9ce;
+    border-bottom: 3px solid #000839;
+    
+}
+
+.navlinks a.active {
+    border-bottom: 3px solid #ececec;
+    color: #71c9ce;
+    border-width: 2px;
+    scroll-padding-top: 10px;
+    
+}
+
+
+.beatplayer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+section iframe {
+    margin: 0px;
+}
+
+.licenses {
+   
+    /* background-color: #ececec; */
+    width: 98%;
+    /* padding: 20px 5px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+    height: auto;
+    
+}
+
+h2, h3 {
+    text-align: center;
+    font-family: Muli;
 }
 
 p {
-    color: lightsteelblue;
-}
-
-.something {
-    color: rgb(235, 181, 181);
-}
-
-.btn {
-    display: block;
-    width: 110px;
-    height: 15px;
-    background: rgb(20, 20, 20);
-    padding: 10px;
     text-align: center;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    margin: 0 auto 0;
-    text-decoration: none;
+    font-family: Muli;
+}
+
+.lic1 {
+    width: 30%;
+    /* height: 250px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    order: 1;
+
+}
+.lic2 {
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    order: 2;
+
+}
+.lic3 {
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    order: 3;
+
+}
+
+.lic {
+    background-color: #e0dcd628;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lic h3, li {
+    text-align: center;
+}
+
+.lic li {
+    color: #222831;
+    
+
+}
+
+.lic ul {
+    background-color: #c1a57b73;
+     /* border-radius: 13px 26px; */
+}
+
+hr {
+    margin: 0;
+}
+
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #222831;
+    text-align: center;
+    margin-top: auto;
+    
+    width: 100%;
+
+}
+
+hr {
+    clear: both;
+    border: none;
+    margin: 0;
+    height: 3px;
+    background-color: #00a8cc;
+}
+
+.license-section{
+    background-color: #30475e;
+    /* background-color: #000839; */
+    padding: 20px 10px;
     
 }
+
+.licenseinfo{
+    color: #e7dfd5;
+    padding: 10px 0;
+}
+    
+
+.Youtube {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.SoundCloud {
+    text-align: center;
+    margin: auto 0;
+    font-size: 24px;
+    padding: 0 24px;
 }
