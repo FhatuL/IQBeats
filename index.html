@@ -3,72 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/icon.gif">
     <link rel="stylesheet" href="styles.css">
-    <title>IQ Beats | Beatstore</title>
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <a href="#" class="logo-container">
-            <img src="images/logo.gif" alt="" class="logo">
-        </a>
+    <div class="content">
+        <header>
 
-        <ul class="navlinks">
-            <li><a href="youtube">YouTube</a></li>
-            <li><a href="music">SoundCloud</a></li> 
-            <li><a href="contact">Contact</a></li>
-        </ul>
+            <div class="nav-bar header">
+                <!-- <a href="#" class="home">HOME</a> -->
 
-        <!-- <a href=""></a> place holder -->
-    </header>
-    <hr>
+                <input type="checkbox" id="menu-btn" class="menu-btn">
+                <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>
+        
+                <ul class="nav menu">
+                    <a href="#" >HOME</a>
+                    <li><a href="videos.html">VIDEO</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </header>
+    
+        <section class="logo">
+    
+            <img src="images/logo.gif" alt="IQBEATS logo" class="iqlogo">
+    
+        </section>
+    
+    
+        <section class="beatstore">
+            <h2>Beat<span class="store">Store</span></h2>
+            <p>Purchase beats here</p>
+    
+    
+    
+            <div class="beatstore-container">
+    
+                <iframe src="https://player.beatstars.com/?storeId=100617" width="100%" 
+                    style="max-width:1200px;">
+                    -- none -- </iframe>
+    
+            </div>
+        </section>
+    
+    
+        <section class="license-info">
+            <h2>License<span class="licinfo">Info</span></h2>
+    
+            <div class="license-container">
+    
+                <div class="license1">
+                    <div class="license">
+                        <div class="grid">
+                            <p>Basic</p>
+                        </div>
+                
+                        <div class="license-terms">
+                            <ul>
+                                <li>Untagged MP3 File</li>
+                                <li>Commercial Use</li>
+                                <li>IQBeats Retains Full Rights</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="license2">
+                    <div class="license">
+                    
+                        <div class="grid">
+                            <p>Premium</p>
+                        </div>
+                    
+                        <div class="license-terms">
+                    
+                            <ul>
+                                <li>Untagged MP3+WAV Files</li>
+                                <li>Commercial Use</li>
+                                <li>IQBeats Retains Full Rights</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="license3">
+                    <div class="license">
+                        <div class="grid">
+                            <p>Exclusive</p>
+                        </div>
+                
+                        <div class="license-terms">
+                            <ul>
+                                <li>Untagged MP3+WAV+STEM Files</li>
+                                <li>Commercial Use</li>
+                                <li>IQBeats Retains Full Rights</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                </div>
+    
+    
+            </div>
+    
+    
+        </section>
+    </div>
 
-    <section class="beatplayer">
-        <h2>BeatStore</h2>
-        <iframe src="https://player.beatstars.com/?storeId=100617" width="100%" height="750" style="max-width:800px;" frameborder="0"> -- none -- </iframe>
-    </section>
- 
-    <section class="license-section">
-        <h2 class="licenseinfo">License info</h2>
-        <div class ="licenses">
-        <div class="lic1 lic">
-            <h2>BASIC</h2>
-            <h3>$14.95</h3>
-            <ul>
-                <li>Untagged mp3 file</li>
-                <li>Commercial Use</li>
-                <li>IQBeats retains full rights</li>
-            </ul>
-        </div>
-        <div class="lic2 lic">
-            <h2>PREMIUM</h2>
-            <h3>$29.95</h3>
-            <ul>
-                <li>Untagged mp3 + WAV files</li>
-                <li>Commercial Use</li>
-                <li>IQBeats retains full rights</li>
-            </ul>
+    <footer class="footer">
 
-        </div>
-        <div class="lic3 lic">
-            <h2>EXCLUSIVE</h2>
-            <h3>Contact Me</h3>
-            <ul>
-                <li>Untagged mp3 + WAV files + stems</li>
-                <li>Commercial Use</li>
-                <li>You retain full rights</li>
-            </ul>
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/iqmakesmusic/" class="instagram" target="_blank" ><img class="icon" src="images/icons/instagram.png" alt=""></a>
+            <a href=" https://wa.me/27813563502" target="_blank"  class="whatsapp"><img class="icon" src="images/icons/whatsapp.png" alt=""></a> 
+            <a href="https://www.youtube.com/channel/UCbEDJIo11wiCf2hRHRd1E-w" target="_blank" class="youtube"><img class="icon" src="images/icons/youtube.png" alt=""></a>
 
             
         </div>
-    </div>
-
-    </section>
-
-
-    <footer>
-
+        <p>&copy; IQBeats 2020</p>
     </footer>
+
     
 </body>
 </html>
