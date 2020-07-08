@@ -65,7 +65,7 @@ header {
 }
 
 .logo {
-  margin-top: 57px;
+  
   background-image: url(images/clouds.png);
   background-position: center bottom;
   background-size: cover;
@@ -198,6 +198,10 @@ li {
 .uploads-section {
   
   padding-top: 50px;
+}
+
+.logo {
+  margin-top: 57px;
 }
 
 .content2 {
