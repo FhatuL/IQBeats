@@ -50,6 +50,7 @@ header {
 }
 
 .nav-bar {
+  background-color: #023e7d;
   max-width: 1920px;
   display: flex;
   align-items: center;
@@ -64,6 +65,7 @@ header {
 }
 
 .logo {
+  margin-top: 57px;
   background-image: url(images/clouds.png);
   background-position: center bottom;
   background-size: cover;
@@ -366,7 +368,7 @@ li {
 
     .nav-bar {
         display: block;
-        /* position: fixed; */
+        position: fixed; 
         width: 100%;
         padding: 0;
         z-index: 3;
