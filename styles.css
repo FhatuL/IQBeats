@@ -200,9 +200,6 @@ li {
   padding-top: 50px;
 }
 
-.logo {
-  margin-top: 57px;
-}
 
 .content2 {
   color: white;
@@ -285,6 +282,11 @@ li {
   
   .form {
     margin-top: 57px;
+  }
+  
+  .logo {
+  margin-top: 57px;
+}
 
   .license-info h2 {
     padding-bottom: 15px;
