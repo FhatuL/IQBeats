@@ -196,6 +196,7 @@ li {
 /* --------------------------------------------------- */
 
 .uploads-section {
+  
   padding-top: 50px;
 }
 
@@ -273,6 +274,13 @@ li {
     padding: 10%;
     margin: 0 auto;
   }
+  
+  .uploads-section {
+  margin-top: 57px;
+}
+  
+  .form {
+    margin-top: 57px;
 
   .license-info h2 {
     padding-bottom: 15px;
