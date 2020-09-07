@@ -59,6 +59,34 @@ header {
   margin: 0 auto;
 }
 
+.active{
+  border-width: 0 0 2px 0;
+  border-color: #b2ebf2;
+  border-style: solid;
+  padding-bottom: 3%;
+}
+
+.nav a:hover {
+  /* display: inline-block; */
+  color: #d2f6c5;
+  /* transform: scale(1.5); */
+  /* margin: 0 3px; */
+  /* font-weight: 800; */
+}
+
+.price {
+  display: block;
+  text-decoration: none;
+  font-size: 220%;
+  /* color: #28df99; */
+  color: #dd2c00;
+  border-width: 0 0 0.1em 0;
+  border-style: solid;
+  width: 75%;
+  margin: 0 auto;
+  /* ss; */
+}
+
 .iqlogo {
   width: 25%;
   max-width: 480px;
