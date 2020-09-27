@@ -39,8 +39,13 @@ function prev(x, i, n) {
 const btnNext = document.querySelector('.btn2');
 const btnPrev = document.querySelector('.btn1');
 
+const btn_next = document.querySelector('.btn4');
+const btn_prev = document.querySelector('.btn3');
+
 
 btnNext.addEventListener("click", function() {i = next(photo,i,n);})
 btnPrev.addEventListener("click", function() {i = prev(photo,i,n);})
 
+btn_next.addEventListener("click", function() {i = next(photo,i,n);})
+btn_prev.addEventListener("click", function() {i = prev(photo,i,n);})
 

@@ -12,9 +12,14 @@
     <div class="container">
       <nav>
         <div class="nav-bar">
+
           <a href="#" id="brand-name">hoeish</a>
 
-          <ul class="nav-links">
+          <div class="ham-icon">
+            <h1>&#9776;</h1>
+          </div>
+
+          <ul class="nav-links menu">
             <li><a href="#">about</a></li>
             <li><a href="#">products</a></li>
             <li><a href="#">models</a></li>
@@ -36,19 +41,25 @@
 
         <a href="#" class="btn btn1">
           
-            <img src="img/icons/left-arrow2.png" class="arw left-arrow" alt="">
+           <img src="img/icons/left-arrow2.png" class="arw left-arrow" alt="previous button">
           
         </a>
 
-        <div class="frame">
-          <img src="img/hoeish/new/1.jpg" class="pic" alt="">
+        <div class="frame" id="photos">
+          <img src="img/hoeish/new/1.jpg" class="pic" alt="clothes brand photo">
 
         </div>
 
         <a href="#" class="btn btn2">
-          <img src="img/icons/right-arrow2.png" class="arw right-arrow" alt="">
+          <img src="img/icons/right-arrow2.png" class="arw right-arrow" alt="next button">
 
         </a>
+
+        <div class="btn-box" >
+          <a href="#photos" class="btn3"><img src="img/icons/left-arrow2.png" class="btn-img btn-prev" alt="previous button"></a>
+
+          <a href="#photos" class="btn4"><img src="img/icons/right-arrow2.png" class="btn-img btn-next" alt="next button"></a>
+        </div>
 
       </section>
 
@@ -90,6 +101,8 @@
 
     </div>
 
+    <!-- JS scripts -->
     <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
   </body>
 </html>
